@@ -4,7 +4,7 @@ import { FolderIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-6 pt-20 relative">
+    <div className="flex flex-col items-center min-h-screen px-6 pt-20 relative">
       <Image
         src="/home-background.png"
         alt="home-background"
@@ -21,7 +21,7 @@ export default function Home() {
           <span>Are You Ready To Learn</span>
           <span>Patient Counseling of OTC Drugs?</span>
         </div>
-        <div className="mt-7 text-gray-500">
+        <div className="mt-7 text-sm text-gray-500">
           <span>Click the team you want to explore.</span>
         </div>
       </div>
@@ -67,20 +67,18 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="mr-auto">
-        <div className="flex flex-row">
-          <Image
-            src="/pce-logo.png"
-            alt="pce-logo"
-            width={295}
-            height={100}
-            className="-mt-14"
-          />
-          <span className="mt-20 -ml-10 text-gray-500">
-            O-PCE is created in collaboration with{" "}
-            <span className="font-bold">Daewon Pharmaceutical</span>.
-          </span>
-        </div>
+      <div className="flex flex-row justify-center mr-auto">
+        <Image
+          src="/pce-logo.png"
+          alt="pce-logo"
+          width={295}
+          height={100}
+          className="-mt-14 -ml-6"
+        />
+        <span className="mt-20 -ml-10 text-gray-500">
+          O-PCE is created in collaboration with{" "}
+          <span className="font-bold">Daewon Pharmaceutical</span>.
+        </span>
       </div>
     </div>
   );
