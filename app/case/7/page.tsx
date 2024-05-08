@@ -116,7 +116,7 @@ export default function Case7() {
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
             <span className="text-lg">
-              My younger sister and she's 34 years old.
+              My younger sister and shes 34 years old.
             </span>
             <span className="text-lg">(Note: Pregnant)</span>
           </div>

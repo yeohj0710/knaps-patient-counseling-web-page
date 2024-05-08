@@ -110,7 +110,9 @@ export default function Case2() {
       {flag2 ? (
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
-            <span className="text-lg">My mother and she's 76 years old.</span>
+            <span className="text-lg">
+              My mother and she&apos;s 76 years old.
+            </span>
             <span className="text-lg">
               (Note: Has hypertension and diabetes)
             </span>

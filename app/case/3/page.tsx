@@ -115,7 +115,7 @@ export default function Case3() {
       {flag2 ? (
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
-            <span className="text-lg">Me and I'm 40 years old.</span>
+            <span className="text-lg">Me and I&apos;m 40 years old.</span>
             <span className="text-lg">(Note: None)</span>
           </div>
           <div className="mt-48">

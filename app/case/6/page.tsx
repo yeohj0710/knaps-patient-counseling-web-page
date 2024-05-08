@@ -116,7 +116,7 @@ export default function Case6() {
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
             <span className="text-lg">
-              My younger sister and she's 34 years old.
+              My younger sister and she&apos;s 34 years old.
             </span>
             <span className="text-lg">(Note: Pregnant)</span>
           </div>
@@ -227,9 +227,9 @@ export default function Case6() {
               plenty of fluids.
             </span>
             <span>
-              - If you don't feel any improvement after a week of taking it, or
-              if you have rectal bleeding, you should consult a healthcare
-              professional.
+              - If you don&apos;t feel any improvement after a week of taking
+              it, or if you have rectal bleeding, you should consult a
+              healthcare professional.
             </span>
             <span>
               - You should drink plenty of water and eat fiber-rich foods every

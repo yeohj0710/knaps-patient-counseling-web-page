@@ -120,7 +120,7 @@ export default function Case4() {
       {flag2 ? (
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
-            <span className="text-lg">Me and I'm 40 years old.</span>
+            <span className="text-lg">Me and I&apos;m 40 years old.</span>
             <span className="text-lg">(Note: None)</span>
           </div>
           <div className="mt-48">
@@ -247,9 +247,9 @@ export default function Case4() {
               plenty of fluids.
             </span>
             <span>
-              - If you don't feel any improvement after a week of taking it, or
-              if you have rectal bleeding, you should consult a healthcare
-              professional.
+              - If you don&apos;t feel any improvement after a week of taking
+              it, or if you have rectal bleeding, you should consult a
+              healthcare professional.
             </span>
             <span>
               - You should drink plenty of water and eat fiber-rich foods every

@@ -110,7 +110,7 @@ export default function Case1() {
       {flag2 ? (
         <div className="flex flex-col items-center mb-20">
           <div className="flex flex-col items-center gap-2">
-            <span className="text-lg">My son and he's 7 years old.</span>
+            <span className="text-lg">My son and he&apos;s 7 years old.</span>
             <span className="text-lg">(Note: None)</span>
           </div>
           <Image
