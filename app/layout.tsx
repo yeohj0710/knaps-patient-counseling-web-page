@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "KNAPS PCE",
   description: "KNAPS patient counseling web page",
+  icons: {
+    icon: "/favicon.ico",
+  }
 };
 
 export default function RootLayout({

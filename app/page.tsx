@@ -21,13 +21,18 @@ export default function Home() {
           <span>Are You Ready To Learn</span>
           <span>Patient Counseling of OTC Drugs?</span>
         </div>
-        <div className="mt-7 text-sm text-gray-500">
+        <div className="text-center italic mt-12 text-gray-500">
           <span>Click the team you want to explore.</span>
         </div>
       </div>
       <div className="flex flex-col items-center gap-10 w-full mt-16">
         <div className="flex flex-row items-center w-1/2 justify-between">
-          <Link href="/case-select">
+          <Link
+            href={{
+              pathname: "/team",
+              query: { teamName: "Example Team" },
+            }}
+          >
             <div className="flex flex-col items-center">
               <FolderIcon className="text-[#ffd233] w-24" />
               <span className="font-semibold">Example Team</span>

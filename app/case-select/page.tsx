@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CaseSelect() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-6 gap-20 relative mt-32">
+    <div className="flex flex-col items-center justify-center min-h-screen p-6 gap-20 relative">
       <Image
         src="/home-background.png"
         alt="home-background"
@@ -17,77 +17,45 @@ export default function CaseSelect() {
           <span className="text-white">Go Back to Main Page</span>
         </div>
       </Link>
-      <div className="-mt-20">
-        <div className="flex flex-col gap-5 text-5xl font-semibold text-[#18063c]">
+      <div className="">
+        <div className="flex flex-col gap-5 text-5xl font-semibold text-[#18063c] -mt-10">
           <span>
             Which <span className="text-[#5bc17f]">Case</span> Are
           </span>
           <span>You Interested In?</span>
         </div>
-        <div className="mt-7 text-sm text-gray-500">
+        <div className="mt-12 text-gray-500 text-center italic">
           <span>Click the case you want to explore more.</span>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-10 w-full mb-24">
+      <div className="flex flex-col items-center gap-10 w-full">
         <div className="flex flex-row items-center w-[45%] justify-between">
           <Link href="/case/1">
             <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#C06EF3] bg-opacity-20 rounded-[24px] p-4">
+              <div className="flex items-center justify-center w-36 h-24 bg-[#C06EF3] bg-opacity-20 rounded-[24px] p-4 shadow-lg">
                 <span className="text-3xl font-bold">Case 1</span>
               </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
+              <span className="text-xs text-gray-500 mt-3 w-44 break-all">
+                This is a case of selecting the right constipation medication
+                depending on the patient's age, coexisting diseases, pregnancy
+                status, etc
+              </span>
             </div>
           </Link>
-          <Link href="/case/2">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#FDBA09] bg-opacity-20 rounded-[24px] p-4">
+          <Link href="">
+            <div className="flex flex-col items-center -mt-20">
+              <div className="flex items-center justify-center w-36 h-24 bg-[#FDBA09] bg-opacity-20 rounded-[24px] p-4 shadow-lg">
                 <span className="text-3xl font-bold">Case 2</span>
               </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
+              <span className="text-xs text-gray-500 mt-3"></span>
             </div>
           </Link>
-          <Link href="/case/3">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#6DEDC3] bg-opacity-20 rounded-[24px] p-4">
+          <Link href="">
+            <div className="flex flex-col items-center -mt-20">
+              <div className="flex items-center justify-center w-36 h-24 bg-[#6DEDC3] bg-opacity-20 rounded-[24px] p-4 shadow-lg">
                 <span className="text-3xl font-bold">Case 3</span>
               </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
-            </div>
-          </Link>
-        </div>
-        <div className="flex flex-row items-center w-[45%] justify-between">
-          <Link href="/case/4">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#C06EF3] bg-opacity-20 rounded-[24px] p-4">
-                <span className="text-3xl font-bold">Case 4</span>
-              </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
-            </div>
-          </Link>
-          <Link href="/case/5">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#FDBA09] bg-opacity-20 rounded-[24px] p-4">
-                <span className="text-3xl font-bold">Case 5</span>
-              </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
-            </div>
-          </Link>
-          <Link href="/case/6">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#6DEDC3] bg-opacity-20 rounded-[24px] p-4">
-                <span className="text-3xl font-bold">Case 6</span>
-              </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
-            </div>
-          </Link>
-        </div>
-        <div className="flex flex-row items-center w-[45%] justify-between">
-          <Link href="/case/7">
-            <div className="flex flex-col items-center">
-              <div className="flex items-center justify-center w-36 h-24 bg-[#C06EF3] bg-opacity-20 rounded-[24px] p-4">
-                <span className="text-3xl font-bold">Case 7</span>
-              </div>
-              <span className="text-xs text-gray-500 mt-3">Description</span>
+              <span className="text-xs text-gray-500 mt-3"></span>
             </div>
           </Link>
         </div>
