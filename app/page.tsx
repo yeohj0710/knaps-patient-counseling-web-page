@@ -27,12 +27,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center gap-10 w-full mt-16">
         <div className="flex flex-row items-center w-1/2 justify-between">
-          <Link
-            href={{
-              pathname: "/team",
-              query: { teamName: "Example Team" },
-            }}
-          >
+          <Link href="/team">
             <div className="flex flex-col items-center">
               <FolderIcon className="text-[#ffd233] w-24" />
               <span className="font-semibold">Example Team</span>

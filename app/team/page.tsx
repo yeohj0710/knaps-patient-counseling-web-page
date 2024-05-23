@@ -3,11 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FolderIcon } from "@heroicons/react/24/solid";
-import { useSearchParams } from "next/navigation";
 
 export default function Team() {
-  const searchParams = useSearchParams();
-  const teamName = searchParams.get("teamName");
   return (
     <div className="flex flex-col items-center min-h-screen px-6 pt-20 relative">
       <Image
@@ -25,7 +22,7 @@ export default function Team() {
       </Link>
       <div>
         <div className="flex flex-col gap-2 text-5xl font-semibold text-[#18063c] mt-16 w-[50vw]">
-          <span>{teamName}</span>
+          <span>Example Team</span>
         </div>
         <div className="flex flex-col gap-2 mt-14 text-sm text-gray-500">
           <span>
