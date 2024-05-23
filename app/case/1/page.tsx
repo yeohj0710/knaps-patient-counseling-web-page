@@ -193,7 +193,7 @@ export default function Case1() {
             className="flex items-center justify-center bg-[#D8E4D8] w-[50%] h-14 shadow-lg rounded-lg"
           >
             <span className="text-gray-600 text-lg">
-              My son and he's 7 years old. (Note: None)
+              My son and he&apos;s 7 years old. (Note: None)
             </span>
           </button>
           <button
@@ -201,7 +201,7 @@ export default function Case1() {
             className="flex items-center justify-center bg-[#D8E4D8] w-[50%] h-14 shadow-lg rounded-lg"
           >
             <span className="text-gray-600 text-lg">
-              My mother and she's 76 years old. (Note: Has hypertension and
+              My mother and she&apos;s 76 years old. (Note: Has hypertension and
               diabetes)
             </span>
           </button>
@@ -210,7 +210,7 @@ export default function Case1() {
             className="flex items-center justify-center bg-[#D8E4D8] w-[50%] h-14 shadow-lg rounded-lg"
           >
             <span className="text-gray-600 text-lg">
-              Me and I'm 40 years old. (Note: None)
+              Me and I&apos;m 40 years old. (Note: None)
             </span>
           </button>
           <button
@@ -218,7 +218,7 @@ export default function Case1() {
             className="flex items-center justify-center bg-[#D8E4D8] w-[50%] h-14 shadow-lg rounded-lg"
           >
             <span className="text-gray-600 text-lg">
-              My younger sister and she's 34 years old. (Note: Pregnant)
+              My younger sister and she&apos;s 34 years old. (Note: Pregnant)
             </span>
           </button>
         </div>
@@ -331,7 +331,7 @@ export default function Case1() {
               Bisacodyl is a Stimulant laxative which is unsuitable for child.
             </span>
             <span>
-              I'm not sure a 7 years old child can swallow enteric-coated
+              I&apos;m not sure a 7 years old child can swallow enteric-coated
               tablets too.
             </span>
             <span>Please try again!</span>
@@ -525,8 +525,8 @@ export default function Case1() {
           </div>
           <div className="flex items-center justify-center rounded-md w-3/5 h-14 bg-white opacity-90 px-8 py-12">
             <span className="text-xl text-gray-500 text-center">
-              Patient's parents: Great! My child's constipation had gone really
-              well. Thank you for your help.
+              Patient&apos;s parents: Great! My child&apos;s constipation had
+              gone really well. Thank you for your help.
             </span>
           </div>
         </>
