@@ -37,8 +37,8 @@ export default function CaseSelect() {
               </div>
               <span className="text-xs text-gray-500 mt-3 w-44 break-all">
                 This is a case of selecting the right constipation medication
-                depending on the patient's age, coexisting diseases, pregnancy
-                status, etc
+                depending on the patient&apos; age, coexisting diseases,
+                pregnancy status, etc
               </span>
             </div>
           </Link>
