@@ -1689,7 +1689,7 @@ export default function Case1() {
                   ) : null}
                   {idx === 3 ? (
                     <span className="text-gray-600 text-lg">
-                      4) If you don't feel any improvement after a week of
+                      4) If you don&apos;t feel any improvement after a week of
                       taking it, or if you have rectal bleeding, it is normal
                       reaction so ignore it.
                     </span>
@@ -1764,9 +1764,9 @@ export default function Case1() {
               plenty of fluids.
             </span>
             <span>
-              - If you don't feel any improvement after a week of taking it, or
-              if you have rectal bleeding, you should consult a healthcare
-              professional.
+              - If you don&apos;t feel any improvement after a week of taking
+              it, or if you have rectal bleeding, you should consult a
+              healthcare professional.
             </span>
             <span>
               - You should drink plenty of water and eat fiber-rich foods every
