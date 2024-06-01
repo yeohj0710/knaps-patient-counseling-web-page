@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KNAPS PCE",
-  description: "KNAPS patient counseling web page",
+  title: "World Congress PCE",
+  description: "World Congress Patient Counseling Web Page",
   icons: {
     icon: "/favicon.ico",
   }
