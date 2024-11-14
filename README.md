@@ -1,7 +1,7 @@
 # KNAPS-PCE Web Page
 
-- **KNAPS의 PCE(Patient Counseling Event)**<wbr>는 한국약학대학생연합(KNAPS)이 주최하는 환자 복약지도 대회입니다.
-- 참가자들이 실제 환자 상담 상황을 모의로 경험하며 복약지도 능력을 향상시키기 위해 마련된 대회입니다.
+- **KNAPS**<wbr>의 **PCE(Patient Counseling Event)**<wbr>는 한국약학대학생연합(KNAPS)이 주최하는 환자 복약지도 대회입니다.
+- 참가자들이 실제 환자 상담 상황을 모의로 경험하며, 복약지도 능력을 향상시키기 위해 마련된 대회입니다.
 - 이 프로젝트는 누구나 PCE를 체험할 수 있는 **interactive web application**<wbr>으로, 참가자들이 다양한 환자 사례를 선택하고, 복약지도 과정을 직접 경험할 수 있도록 구현되었습니다.
 
 <br>
@@ -59,4 +59,5 @@
 <br>
 
 ### 체험 링크
-https://worldcongresspce.vercel.app/
+<a href="https://worldcongresspce.vercel.app/" target="_blank">https://worldcongresspce.vercel.app/</a>
+
